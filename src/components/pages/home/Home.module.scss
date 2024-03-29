@@ -1,0 +1,60 @@
+.Home {
+  .Content {
+    .Forms {
+      display: flex;
+      justify-content: center;
+      margin: 100px 0px;
+      gap: 10px;
+      input {
+        font-size: 17px;
+        padding: 6px 10px 6px 15px;
+        outline: none;
+        border-radius: 6px;
+      }
+      button {
+        font-size: 18px;
+        padding: 13px 18px;
+        border-radius: 3px;
+        font-weight: 600;
+        border: none;
+        color: white;
+        background-color: rgba(13, 13, 246, 0.702);
+        cursor: pointer;
+        &:hover {
+          background-color: blue;
+        }
+      }
+    }
+    .rendering {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-wrap: wrap;
+      gap: 50px;
+      .card {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        width: 100%;
+        .card_content {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 20px;
+          .right {
+            display: flex;
+            flex-direction: column;
+            img {
+              max-width: 25px;
+              margin-top: 10px;
+            }
+          }
+        }
+        img {
+          border-radius: 5px;
+          width: 100%;
+          max-height: 300px;
+        }
+      }
+    }
+  }
+}

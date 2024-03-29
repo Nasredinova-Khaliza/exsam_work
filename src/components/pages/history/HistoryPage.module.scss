@@ -1,0 +1,42 @@
+.History {
+	margin-top: 40px;
+	.Content {
+		.navBar {
+			button {
+				font-size: 18px;
+				padding: 13px 18px;
+				border-radius: 3px;
+				font-weight: 600;
+				border: none;
+				color: white;
+				background-color: rgba(13, 13, 246, 0.702);
+				cursor: pointer;
+				&:hover {
+					background-color: blue;
+				}
+			}
+		}
+
+		.productHistory {
+			display: flex;
+			flex-direction: column;
+			margin-top: 20px;
+			justify-content: space-between;
+			background-color: rgb(247, 242, 235);
+			padding: 20px;
+
+			.card {
+				display: flex;
+				flex-direction: row-reverse;
+				justify-content: space-around;
+				align-items: center;
+			}
+
+			.productCard {
+				img {
+					width: 100px;
+				}
+			}
+		}
+	}
+}
